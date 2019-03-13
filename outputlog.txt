@@ -1,0 +1,36 @@
+TESTS WITH ERRORS 
+test08 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 69, in test08
+    plan = planner.find_plan("warehouse_world.pddl","test08_fail.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 19, in __init__
+    self.error = resp['result']['error']
+TypeError: string indices must be integers
+
+test09 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 73, in test09
+    plan = planner.find_plan("warehouse_world.pddl","test09_fail.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 19, in __init__
+    self.error = resp['result']['error']
+TypeError: string indices must be integers
+
+test10 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\gradingtests.py", line 77, in test10
+    plan = planner.find_plan("warehouse_world.pddl","test10_fail.pddl")
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 50, in find_plan
+    plan = Plan(resp)
+  File "C:\Users\kille\academics\automatedgradingapp\app\testing\planning\planner.py", line 19, in __init__
+    self.error = resp['result']['error']
+TypeError: string indices must be integers
+
+-------------------------------
+TESTS FAILED  
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
